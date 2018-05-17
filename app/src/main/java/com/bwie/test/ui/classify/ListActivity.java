@@ -4,10 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 
-import com.bwie.test.bean.ProductsBean;
 import com.bwie.test.component.DaggerHttpComponent;
-import com.bwie.test.module.HttpModule;
 import com.bwie.test.myclassapp.R;
+import com.bwie.test.bean.ProductsBean;
+import com.bwie.test.module.HttpModule;
 import com.bwie.test.ui.base.BaseActivity;
 import com.bwie.test.ui.classify.adapter.XrvListAdapter;
 import com.bwie.test.ui.classify.contract.ListContract;

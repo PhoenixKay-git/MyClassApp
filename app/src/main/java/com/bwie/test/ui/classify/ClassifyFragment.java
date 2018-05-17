@@ -7,12 +7,12 @@ import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ImageView;
 
+import com.bwie.test.component.DaggerHttpComponent;
+import com.bwie.test.myclassapp.R;
 import com.bwie.test.bean.CatagoryBean;
 import com.bwie.test.bean.ProductCatagoryBean;
-import com.bwie.test.component.DaggerHttpComponent;
 import com.bwie.test.inter.OnItemClickListener;
 import com.bwie.test.module.HttpModule;
-import com.bwie.test.myclassapp.R;
 import com.bwie.test.ui.base.BaseFragment;
 import com.bwie.test.ui.classify.adapter.ElvAdapter;
 import com.bwie.test.ui.classify.adapter.RvLeftAdapter;
